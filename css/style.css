@@ -1,0 +1,195 @@
+body,
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.header{
+    background-color: #F1F1F1;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.header-logo{
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.header-logo::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    margin-top: 27px;
+    margin-left: 4px;
+    border-radius: 50%;
+}
+
+.header-nav{
+   padding-top: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+
+.Home{
+    color: #606060;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.nav-item{
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 14px;
+    
+}
+
+.header-info{
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    margin-top: 124px;
+    width: 500px;
+}
+
+.info-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+}
+
+.info-text{
+    height: 56px;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.box{
+    margin-top: 60px;
+}
+
+.box-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-info{
+    max-width: 370px;
+}
+
+.box-title{
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.box-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.portfilio-wrapper{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.porfolio-title{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 70px;
+}
+
+.porfolio-info + .porfolio-info{
+    margin-top: 90px;
+}
+
+.porfolio-img{
+    margin-bottom: 40px;
+}
+
+.porfolio-info h3{
+    text-decoration: underline;
+}
+
+.potfolio-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.contact-info{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact-card{
+    width: 342px;
+    margin: 0 auto;
+}
+
+.contact-title{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 40px;
+}
+
+.contact-text, 
+.btn-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.contact-btn{
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.btn-text{
+    color:#FFFFFF;
+}
+
+.contact-link{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contact-info-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
