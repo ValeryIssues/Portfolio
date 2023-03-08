@@ -1,0 +1,30 @@
+.portfolio{
+    background-color: #F6F6F6;
+    &-wrapper{
+        text-align: center;
+        padding: 60px 0;
+    }
+    &-title{
+        text-align: center;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 51px;
+        margin-bottom: 70px;
+    }
+    &-img{
+        margin: 0 auto 40px;
+
+    }
+    &-info{
+        margin: 60px auto 0;
+        h3{
+            text-decoration: underline;
+        }
+    }
+    &-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+    }
+}

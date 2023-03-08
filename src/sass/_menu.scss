@@ -1,0 +1,46 @@
+.menu_block{
+    width: 375px;
+    height: 100%;
+    position: fixed;
+    left: -110%;
+    z-index: 1;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: block;
+    background-color: #FFFFFF;
+    &_active{
+        left: 0;
+        transition-duration: 0.5s;
+    }
+    .menu_items{
+        padding-top: 30px;
+        font-weight: 600;
+        font-size: 34px;
+        color: #828282;
+        line-height: 70px;
+    }
+    .Home{
+        color: #090909;
+    }
+}
+.cross{
+    position: absolute;
+    top: 36px;
+    right: 29px;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    display: block;
+    span{
+        width: 27px;
+        height: 4px;
+        display: block;
+        background-color: #828282;
+        transform: rotate(-45deg);
+        &.two{
+            position: inherit;
+            transform: rotate(45deg);
+            top: 0px;
+        }
+    }
+}

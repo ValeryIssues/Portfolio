@@ -1,0 +1,135 @@
+@media (max-width: 992px){
+    .header{
+        .info{
+            margin-top: 35px;
+            &-title{
+                font-size: 30px;
+                line-height: 55px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .header{
+        .nav{
+            column-gap: 28px;
+        }
+        &-info{
+            margin-top: 40px;
+        }
+        .info{
+            margin-top: 35px;
+            &-title{
+                font-size: 30px;
+                line-height: 55px;
+            }
+            &-img{
+                min-width: 75%;
+            }
+        }
+    }
+    .service{
+        .box{
+            &-title{
+                margin: 0;
+                font-size: 17px;
+                line-height: 30px;
+            }
+            &-text{
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 576px){
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        right: 30px;
+        top: 40px;
+        span{
+            content: '';
+            width: 33px;
+            height: 4px;
+            background-color: black;
+            display: block;
+            margin-bottom: 6px;
+        }
+    }
+    .container{
+        padding: 30px 30px 0;
+    }
+    .header{
+        &-nav{
+            display: none;
+        }
+        &-info{
+            display: block;
+            margin-top: 50px;
+            .info{
+                width: 300px;
+                &-title{
+                    font-size: 23px;
+                    line-height: 44px;
+                }
+                &-text{
+                    line-height: 20px;
+                }
+                &-img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .service{
+        .box{
+            margin-top: 30px;
+            &-list{
+                display: block;
+            }
+            &-title{
+                font-size: 24px;
+                line-height: 36px;
+                margin-top: 10px;
+            }
+            &-text{
+                font-size: 14px;
+                margin-bottom: 60px;
+            }
+            .object{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .portfolio{
+        min-height: 1000px;
+        &-title{
+            margin-bottom: 50px;
+        }
+    }
+    .contact{
+        &-info{
+            padding: 30px 0;
+            &-p{
+                font-size: 14px;
+                line-height: 21px;
+                color: #828282;
+            }
+        }
+        &-card{
+            width: auto;
+        }
+        &-title{
+            margin-bottom: 20px;
+        }
+        &-text{
+            margin-bottom: 20px;
+        }
+        &-btn{
+            margin-bottom: 70px;
+        }
+    }
+}

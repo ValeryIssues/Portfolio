@@ -1,0 +1,301 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #000; }
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto; }
+  .container .hamburger {
+    display: none; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit; }
+
+.header {
+  background-color: #F1F1F1;
+  position: relative;
+  z-index: 0; }
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px; }
+  .header-logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px; }
+    .header-logo:after {
+      position: absolute;
+      content: "";
+      width: 8px;
+      height: 8px;
+      background-color: #FDA300;
+      margin-top: 27px;
+      margin-left: 4px;
+      border-radius: 50%; }
+  .header-nav {
+    padding-top: 10px; }
+  .header-info {
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between; }
+    .header-info .info {
+      margin-top: 124px;
+      width: 500px; }
+      .header-info .info-title {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 66px; }
+      .header-info .info-text {
+        height: 56px;
+        font-weight: 400;
+        line-height: 28px;
+        font-size: 14px; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px; }
+  .nav-item {
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 14px; }
+    .nav-item:hover {
+      color: #828282; }
+
+.menu_block {
+  width: 375px;
+  height: 100%;
+  position: fixed;
+  left: -110%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-top: 15px;
+  display: block;
+  background-color: #FFFFFF; }
+  .menu_block_active {
+    left: 0;
+    transition-duration: 0.5s; }
+  .menu_block .menu_items {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 34px;
+    color: #828282;
+    line-height: 70px; }
+  .menu_block .Home {
+    color: #090909; }
+
+.cross {
+  position: absolute;
+  top: 36px;
+  right: 29px;
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+  display: block; }
+  .cross span {
+    width: 27px;
+    height: 4px;
+    display: block;
+    background-color: #828282;
+    transform: rotate(-45deg); }
+    .cross span.two {
+      position: inherit;
+      transform: rotate(45deg);
+      top: 0px; }
+
+.service .box {
+  margin-top: 60px; }
+  .service .box-list {
+    display: flex;
+    justify-content: space-between; }
+  .service .box-info {
+    max-width: 370px; }
+  .service .box-title {
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px; }
+  .service .box-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px; }
+.service .object {
+  cursor: pointer; }
+  .service .object:hover {
+    transform: scale(1.4);
+    transition: all 0.7s; }
+
+.portfolio {
+  background-color: #F6F6F6; }
+  .portfolio-wrapper {
+    text-align: center;
+    padding: 60px 0; }
+  .portfolio-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 70px; }
+  .portfolio-img {
+    margin: 0 auto 40px; }
+  .portfolio-info {
+    margin: 60px auto 0; }
+    .portfolio-info h3 {
+      text-decoration: underline; }
+  .portfolio-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center; }
+
+.contact-info {
+  text-align: center;
+  padding: 60px 0; }
+  .contact-info-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px; }
+    .contact-info-p a:hover {
+      color: #FFD645;
+      text-decoration: underline; }
+.contact-card {
+  width: 342px;
+  margin: 0 auto; }
+.contact-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  margin-bottom: 40px; }
+.contact-text,
+.contact .btn-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 40px; }
+.contact-btn {
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  border-radius: 30px;
+  margin-bottom: 80px; }
+  .contact-btn:hover {
+    background-color: #FFD645; }
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px; }
+.contact .btn-text {
+  color: #FFFFFF;
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  margin: 5px auto; }
+  .contact .btn-text:hover {
+    color: #070707; }
+.contact .hover {
+  fill: #000000; }
+  .contact .hover:hover {
+    fill: #FFD645; }
+
+@media (max-width: 992px) {
+  .header .info {
+    margin-top: 35px; }
+    .header .info-title {
+      font-size: 30px;
+      line-height: 55px; } }
+@media (max-width: 768px) {
+  .header .nav {
+    column-gap: 28px; }
+  .header-info {
+    margin-top: 40px; }
+  .header .info {
+    margin-top: 35px; }
+    .header .info-title {
+      font-size: 30px;
+      line-height: 55px; }
+    .header .info-img {
+      min-width: 75%; }
+
+  .service .box-title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 30px; }
+  .service .box-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px; } }
+@media (max-width: 576px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    top: 40px; }
+    .hamburger span {
+      content: '';
+      width: 33px;
+      height: 4px;
+      background-color: black;
+      display: block;
+      margin-bottom: 6px; }
+
+  .container {
+    padding: 30px 30px 0; }
+
+  .header-nav {
+    display: none; }
+  .header-info {
+    display: block;
+    margin-top: 50px; }
+    .header-info .info {
+      width: 300px; }
+      .header-info .info-title {
+        font-size: 23px;
+        line-height: 44px; }
+      .header-info .info-text {
+        line-height: 20px; }
+      .header-info .info-img {
+        margin-top: 20px; }
+
+  .service .box {
+    margin-top: 30px; }
+    .service .box-list {
+      display: block; }
+    .service .box-title {
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 10px; }
+    .service .box-text {
+      font-size: 14px;
+      margin-bottom: 60px; }
+    .service .box .object {
+      margin-bottom: 20px; }
+
+  .portfolio {
+    min-height: 1000px; }
+    .portfolio-title {
+      margin-bottom: 50px; }
+
+  .contact-info {
+    padding: 30px 0; }
+    .contact-info-p {
+      font-size: 14px;
+      line-height: 21px;
+      color: #828282; }
+  .contact-card {
+    width: auto; }
+  .contact-title {
+    margin-bottom: 20px; }
+  .contact-text {
+    margin-bottom: 20px; }
+  .contact-btn {
+    margin-bottom: 70px; } }
+
+/*# sourceMappingURL=style.css.map */

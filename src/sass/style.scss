@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.container{
+    position: relative;
+    max-width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+    .hamburger{
+        display: none;
+    }
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+$color: #FFD645;
+@import "header";
+@import "menu";
+@import "service";
+@import "portfolio";
+@import "contact";
+@import "media";
